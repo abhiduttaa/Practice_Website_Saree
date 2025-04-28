@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+
+/* login sing up. */
+
+.login_signup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .login_signup img {
+    width: 50px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+    color: #fff;
+    background: #fff;
+  }
+  
+  /* Login Dropdown */
+  .logindropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 140px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    padding: 5px 0;
+  }
+  
+  /* Signup Dropdown (optional if needed separately) */
+  .signupdropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 140px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    padding: 5px 0;
+  }
+  
+  /* Hide by default */
+  .hidden {
+    display: none;
+  }
+  
+  /* Dropdown Items */
+  .logindropdown li,
+  .signupdropdown li {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .logindropdown li:hover,
+  .signupdropdown li:hover {
+    background-color: #f2f2f2;
+    color: white;
+  }
+  
+  .logindropdown li a,
+  .signupdropdown li a {
+    text-decoration: none;
+    color: #f0eaea;
+    font-weight: 500;
+  }
+  
+  .logindropdown li a:hover,
+  .signupdropdown li a:hover {
+    color: #fafafa;
+  }
+  
+
+/* login sign up. */
+ul li p{
+    color: #fff;
+}
+ul li a{
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* aikhane amader rating star acha */
+.checked {
+    color: orange;
+  }
+/* aikhane amader rating star acha */
+
+
+h1{
+    text-align: center;
+}
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    min-height: 100%;
+  }
+
+
+.container{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container .navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(17, 17, 17);
+    padding: 20px;
+    max-height: 100%;
+    width: 100%;
+    /* margin-top: 5px; */
+    background: black;
+    position: sticky;
+    top :0;
+    bottom: 0;
+    color: white;
+}
+.navright a{
+    text-decoration: none;
+    color: white;
+
+}
+.navright a:hover{
+  transform: scale(1.2);
+
+}
+.navber .navright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: white;
+}
+
+/* Ai khane Drop down er css gulo leha acha  */
+.dropdown{
+    display: none;
+    border-radius: 10px;
+}
+.goodies:hover .dropdown{
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 100;
+}
+.dropdown{
+    border-radius: 10px;
+}
+ul{
+    border-radius: 10px;
+    
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+}
+li{
+    background-color: rgb(207, 0, 248);
+    color: white;
+    font-weight: 800;
+    padding: 5px;
+    
+    /* border-radius: 10px; */
+}
+li:hover{
+    background: linear-gradient(130deg , blue,violet);
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
+}
+
+
+
+/* Ai khane Drop down er css gulo leha acha  */
+
+.dropdowncatalog{
+    display: none;
+    border-radius: 10px;
+}
+.Catalog:hover .dropdowncatalog{
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+}
+.dropdowncatalog{
+    border-radius: 10px;
+}
+ul{
+    border-radius: 10px;
+}
+li{
+    background-color: rgb(207, 0, 248);
+    color: white;
+    font-weight: 800;
+    padding: 5px;
+    
+    /* border-radius: 10px; */
+}
+li:hover{
+    background: linear-gradient(130deg , blue,violet);
+    cursor: pointer;
+    font-size: 20px;
+    transform: scale(1.03);
+
+}
+.dropdowncatalog ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdowncatalog ul li{
+    display: block;
+}
+
+/* Ai khane Drop down er css gulo leha acha  */
+.container{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.marquee{
+    border: 1px solid rgb(247, 6, 247);
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background: linear-gradient(145deg , rgb(9, 9, 241), rgb(141, 5, 141));
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.whybox{
+    border: 1px solid violet;
+    padding: 5px;
+    width: 20%;
+    text-align: justify;
+    margin: 10px 10px;
+    /* align-content: baseline; */
+}
+.Rating{
+    border: 1px solid violet;
+    padding: 5px;
+    width: 20%;
+    float: right;
+    overflow: hidden;
+    /* margin: 50%; */
+    text-align: justify;
+    margin: 10px 10px;
+}
+.video{
+    border: 1px solid rgb(230, 9, 230);
+    margin: 10px 10px;
+    width: 100%;
+    background: violet;
+}
+iframe{
+    width: 100%;
+    background: violet;
+    height: 300px;
+}
+.footer{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    color: wheat;
+    /* position: static; */
+    /* left: 0;
+    bottom: 0;
+    right: 0; */
+    width: 100%;
+    background-color: black;
+    /* background: linear-gradient(145deg , rgb(9, 9, 241), rgb(141, 5, 141)); */
+}
+
+/* product-card. */
+
+.product-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+      transition: transform 0.3s;
+      
+      /* height: 300px; */
+    }
+
+    .product-card img {
+      height: 150px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .carousel-inner {
+      padding: 20px;
+    }
+
+    .product-name {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #000;
+      border-radius: 50%;
+    }
+
+    /* contact us. */
+
+    .contact-container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        width: 500px;
+        /* height: 500px; */
+        margin: 40px 0;
+      }
+  
+      .contact-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  
+      .contact-container input[type="text"],
+      .contact-container input[type="email"],
+      .contact-container textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      .contact-container textarea {
+        height: 100px;
+        resize: vertical;
+      }
+  
+      .contact-container input[type="submit"] {
+        width: 100%;
+        background-color: #1e90ff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  
+      .contact-container input[type="submit"]:hover {
+        background-color: #005cbf;
+      }
+
+/* responsive code */
+
+@media (max-width: 768px) {
+    .navber {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .navright {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navber.active .navright {
+        display: flex;
+    }
+
+    .carousel-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .whybox, .Rating {
+        width: 90%;
+    }
+
+    .video iframe {
+        height: 200px;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+}
+
+
+/* lightmode dark mode. */
+
+/* Default Light Mode */
+/* Light Mode (Default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.navber, .footer {
+  background-color: #f8f9fa;
+}
+
+
+
